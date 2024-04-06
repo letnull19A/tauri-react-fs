@@ -1,12 +1,12 @@
 {
   "build": {
-    "beforeBuildCommand": "pnpm build",
-    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "yarn build",
+    "beforeDevCommand": "yarn dev",
     "devPath": "http://localhost:5173",
     "distDir": "../dist"
   },
   "package": {
-    "productName": "yt-tutorial",
+    "productName": "LetNull19a project",
     "version": "0.1.0"
   },
   "tauri": {
@@ -32,7 +32,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.letnull19a.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -61,7 +61,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "youtube-tutorial",
+        "title": "LetNull19a Project",
         "width": 800
       }
     ]
